@@ -1,12 +1,11 @@
 body{
-      margin-left: 20%;
-      margin-right: 20%;
-      text-indent: 20px;
-      color: black;
+      margin-left: 10%;
+      margin-right: 10%;
+
     }
 
     p{
-      line-height: 200%;
+      line-height: 150%;
     }
 
   #logos{
@@ -17,39 +16,56 @@ body{
   list-style: none;
   float: right;
 }
-p{
 
-}
 nav {
-  padding-bottom: 30px;
-  border-bottom: 5px solid grey;
+  padding-bottom: 3px;
+  /*border-bottom: 5px solid grey;*/
+  color: white;
   text-decoration: none;
+
+  /*border: 2px solid #80ced6;*/
 }
 #myPicture{
-  float: right;
-  
-  border-radius: 45%;
-  margin-left: 20%;
-  margin-right: 20%;
-
+  /*float: left;*/
+  border-radius: 25%;
+  height: 35%;
+  width: 35%;
+  margin-top: 8%;
+  margin-left: 2%;
+  border: 1px solid #618685;;
 }
+
+body{
+  background-color: #618685;
+}
+
+
 
 li{
 
   display: inline;
 }
 
-button{
-  background-color: red;
-  color: white;
-  height: 25px;
-  width: 90px;
-  float: right;
+aside{
+  margin-top: 5%;
+  background-color: #618685;
+  height: 40%;
+  width: 40%;
+  color:
+
 }
 
 
 article{
-    border-bottom: 5px solid grey;
+    background-image: url("images/macbook.jpg");
+
+    border: 5px solid #d5f4e6;
+    /*border-top: 5px solid #d5f4e6;*/
+    background-repeat: no-repeat;
+    color: #fefbd8;
+    font-size: 2em;
+
+
 }
 footer {
     display: inline-block;
