@@ -1,4 +1,57 @@
-body {
-    background-image: url("images/backgroundForest.jpeg");
-    /*background-color: #cccccc;*/
+body{
+      margin-left: 20%;
+      margin-right: 20%;
+      text-indent: 20px;
+      color: black;
+    }
+
+    p{
+      line-height: 200%;
+    }
+
+  #logos{
+    float:left;
+  }
+
+.icons{
+  list-style: none;
+  float: right;
+}
+p{
+
+}
+nav {
+  padding-bottom: 30px;
+  border-bottom: 5px solid grey;
+  text-decoration: none;
+}
+#myPicture{
+  float: right;
+  
+  border-radius: 45%;
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+
+li{
+
+  display: inline;
+}
+
+button{
+  background-color: red;
+  color: white;
+  height: 25px;
+  width: 90px;
+  float: right;
+}
+
+
+article{
+    border-bottom: 5px solid grey;
+}
+footer {
+    display: inline-block;
+    text-align: left;
 }
