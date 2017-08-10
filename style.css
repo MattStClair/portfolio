@@ -16,7 +16,9 @@ h3{
   color: #fefbd8;
   margin-bottom: 2em;
   float: right;
-  /*margin-right: 20%;*/
+  border-top: 1px solid #d5f4e6;
+  border-left: 6px solid #d5f4e6;
+  border-right: 1px solid #d5f4e6; 
 
 }
 
@@ -108,11 +110,10 @@ p{
   font-size: 1.0em;
   text-indent: 2em;
   font-family: 'Libre Baskerville', serif;
-  margin: 1.5em;
+  margin: 2em;
 }
 
 article{
-    /*background-image: url("images/macbook.jpg");*/
     background-color: grey;
     border-bottom: 6px solid #d5f4e6;
     border-top: 1px solid #d5f4e6;
