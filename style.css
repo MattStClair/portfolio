@@ -4,29 +4,59 @@ body{
 
     }
 
-    p{
-      line-height: 150%;
-    }
 
-
-.icons{
-  list-style: none;
-  float: right;
+h3{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
 }
-#name {
-  font-size: 300%;
+#slogan{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2em;
+  text-transform: lowercase;
   color: #fefbd8;
-  text-align: center;
-  margin-left: 20%;
+  margin-bottom: 2em;
+  float: right;
+  /*margin-right: 20%;*/
+
+}
+
+#mywork{
+float: left;
+}
+#name1 {
+  font-size: 400%;
+  color: #fefbd8;
+  text-align: left;
+  margin-left: 9%;
   margin-right: 20%;
-  letter-spacing: 2px;
+  margin-bottom: 0;
+  letter-spacing: 6px;
   font-family: 'Raleway', sans-serif;
   text-decoration: overline;
+  padding-bottom: 0;
 
+}
+
+#name2 {
+  font-size: 400%;
+  color: #fefbd8;
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 0;
+  margin-top: 0;
+  letter-spacing: 6px;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: overline;
+  padding-bottom: 0;
+
+}
+
+img{
+  border-radius: 5%;
 }
 
 nav {
-  clear: both;
   padding-bottom: 1px;
   text-decoration: none;
 
@@ -34,17 +64,35 @@ nav {
 }
 #myPicture{
   float: left;
-  border-radius: 25%;
+  border-radius: 5%;
   height: auto;
   width: 35%;
-  margin-top: 2%;
-  margin-left: 2%;
-  margin-right: 2%;
-  border: 1px solid #618685;;
+  margin: 2%;
+  border: 1px solid #618685;
+  margin-bottom: 15%;
+
 }
 
 body{
   background-color: #618685;
+}
+#aboutMe{
+  align-content:right;
+  margin: 3em;
+  border-top: 1px solid #d5f4e6;
+  border-left: 6px solid #d5f4e6;
+  border-right: 1px solid #d5f4e6;
+  line-height: 1.7em;
+}
+
+#ducktimer{
+  height: 30%;
+  width: 30%;
+}
+
+#rays{
+  height: 30%;
+  width: 30%;
 }
 
 
@@ -55,20 +103,14 @@ li{
 
 }
 
-aside{
-  margin-top: 5%;
-  background-color: #618685;
-  height: 40%;
-  width: 40%;
-  color:
-
-}
 
 p{
-  font-size: 1.5em;
-  font-family: 'Raleway', sans-serif;
-
+  font-size: 1.0em;
+  text-indent: 2em;
+  font-family: 'Libre Baskerville', serif;
+  margin: 1.5em;
 }
+
 article{
     /*background-image: url("images/macbook.jpg");*/
     background-color: grey;
@@ -78,11 +120,14 @@ article{
     border-right: 1px solid #d5f4e6;
     background-repeat: no-repeat;
     color: #fefbd8;
+    margin-top: 1em;
+      margin-bottom: 1em;
 
 }
 footer {
-
+    clear: both;
     text-align: center;
+    color: #fefbd8;
     font-family: 'Raleway', sans-serif;
 
 }
