@@ -18,9 +18,13 @@ h3{
   font-size: 1.5em;
   background-color: #618685;
   color:#fefbd8;
-  height:2em;
+  height:1em;
   width: 100%;
-
+  padding-top: .2em;
+}
+#skills li{
+  display: inline;
+  text-decoration: inherit;
 }
 
 
