@@ -5,6 +5,7 @@
     <title>Matt St.Clair's Portfolio</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Raleway" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
 <body>
@@ -23,10 +24,12 @@
     <img id = "myPicture" src="images/MeOnABoat.png" alt="me">
 
     <div id = "aboutMe">
-      <p> <h3> BIO:</h3> As a former mental health therapist, turned front end developer comitted to humane UX, I approach every client as someone I can learn from and every project as a chance to communicate what I have learned.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+       <div id ="bio"><h3 id = "bioTitle"> Bio</h3>
 
-
-      <!-- <p> <h3> WHAT I DO </h3> As a former mental health therapist, turned front end developer comitted to humane UX, I approach every client as someone I can learn from and every project as a chance to communicate what I have learned. </p> -->
+         <p>Hello, my name is Matt St.Clair. I am an Air Force veteran and a mental health therapist, transitioning into the web development field. I am finishing a B.S. in computer applications development from Renton Technical College while also taking full stack web development courses at Codefellows code camp in Seattle. I enjoy front end as well as back end work but am especially fascinated with UX design and how it blends with my social sciences background. I also enjoy front-end work because it allows me to collaborate and create with clients. </p>
+         <h3 id = "bioTitle">Technical Experience</h4>
+        <p>At codefellows, I have created web apps in HTML, CSS, and JavaScript in Atom using Chrome developer tools, and often working in groups, utilizing issues in GitHub and agile project workflow. At Renton Technical College, I work in Android and Visual Studios using object oriented programming as well as in multiple data base platforms to include MS Access, Excel, and Tableau. I am also the web content manager at Renton Area Youth and Family Services on their Wordpress site.
+         </div>
 
     </div>
 
@@ -35,18 +38,24 @@
 <footer>
   <h3> samples</h3>
 
-  <ul class = "mywork">
-    <li><a href="https://mackoyokcam.github.io/Duck-Timer" target="_blank"> <h4> Collaborative Work</h3><img id ="ducktimer" src="images/duckTimer.png" alt="ducktimer"></a>  </li>
+<table class = "myTable">
 
-      <li><a href="http://rays.org/" target="_blank"><img id = "rays" src="images/raysImage.png" alt="raysImage"></a>  </li>
-<h4> Content Management</h4>
-  </ul>
+<tr><th> <h4> Collaborative Work</h3></th> <th> <h4>Content Management</h3></th><th> <h4>Self Study App</h4></th> <th> <h4>Click Counter Graph App </h4></th>  </tr>
 
+<tr>
+<td>  <a href="https://mackoyokcam.github.io/Duck-Timer" target="_blank"> <img id ="ducktimer" src="images/duckTimer.png" alt="ducktimer"></a></td>
+<td>  <a href="http://rays.org/" target="_blank"><img id = "rays" src="images/raysImage.png" alt="raysImage"></a></td>
+<td><a href="https://mattstclair.github.io/MFTQuiz/" target="_blank"><img id = "mftsite" src="images/mft.png" alt="mftImage">  </a></td>
+<td><a href="https://mattstclair.github.io/bus-mall/" target="_blank"><img id = "choiceCounter" src="images/pickClick.png" alt="clickImage"></a></td>
+</tr>
 
-
+</table>
 
 
 </footer>
+
+<script type = 'text/javascript' src ='app.js'></script>
+
 </body>
 
 </html>
