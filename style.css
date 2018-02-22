@@ -121,7 +121,7 @@ body{
   width: 63%;
   margin-left: 33%;
 }
-#ducktimer:hover, #mftsite:hover, #choiceCounter:hover, #rays:hover  {
+#ducktimer:hover, #mftsite:hover, #choiceCounter:hover, #rays:hover, #feelingReframersite:hover {
   animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
@@ -150,8 +150,8 @@ body{
 
 
 .myTable{
-margin-left: 10%;
-margin-right: 30%;
+margin-left: 5%;
+margin-right: 5%;
 
 }
 td{
@@ -170,6 +170,15 @@ td{
   width: 10em;
 }
 #choiceCounter{
+  border-bottom: 6px solid #618685;
+  border-top: 1px solid #618685;
+  border-left: 6px solid #618685;
+  border-right: 1px solid #618685;
+  height: 10em;
+  width: 10em;
+}
+
+#feelingReframersite {
   border-bottom: 6px solid #618685;
   border-top: 1px solid #618685;
   border-left: 6px solid #618685;
